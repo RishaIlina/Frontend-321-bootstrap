@@ -1,0 +1,103 @@
+@import "../css/fonts.css";
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+}
+
+
+.wrapper {
+    background-color: #121829;
+    padding: 30px 0;
+    min-height: 100vh;
+}
+
+.movies-card {
+    position: relative;
+    border-radius: 8px;
+    background: rgba(32, 40, 62, 0.8);
+    margin-bottom: 30px;
+
+    max-width: 282px;
+    margin-bottom: 16px;
+}
+
+.card-image {
+    min-height: 313px;
+    border-radius: 8px;
+    padding: 8px 8px 16px;
+}
+
+.card-rating {
+    position: absolute;
+    color: #FFAD49;
+    background-color: #0000007c;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 8px;
+    gap: 4px;
+    width: 59px;
+    height: 32px;
+    left: 16px;
+    top: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.card-text {
+    font-weight: 600;
+    font-size: 16px;
+    color: #EBEEF5;
+    padding: 0 0 0 16px;
+}
+
+.card-info {
+    font-weight: 600;
+    font-size: 16px;
+    color: #7B6EF6;
+    padding: 16px 0 24px 16px;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.card-info svg {
+    width: 19px;
+    margin-right: 10px;
+}
+
+.green {
+    color: #37D8A7;
+}
+
+.question {
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #767E94;
+    margin-top: 80px;
+}
+
+.btn {
+    padding: 16px 32px;
+    background: #7B6EF6;
+    border-radius: 8px;
+    color: #ffffff;
+    margin: 24px 0 80px 30px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
